@@ -1,29 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-==========================================================================
-  K7NG • BOT DE SEGURANÇA   (feito SÓ para o servidor K7NG)
-==========================================================================
-COMO LIGAR
-  1. GUILD_ID, CANAL_BAN e CANAL_MUTE já estão preenchidos com os IDs do K7NG. Os demais IDs (staff, tickets...) são opcionais.
-  2. Coloque o token do bot na variável de ambiente TOKEN.
-  3. Portal do Desenvolvedor > Bot: ligue "Server Members Intent" e "Message Content Intent".
-  4. Dê ao bot permissão de Administrador (ou: Banir, Expulsar e Silenciar Membros, Gerenciar Cargos,
-     Gerenciar Canais, Gerenciar Mensagens e Ver Registro de Auditoria) e deixe o cargo dele NO TOPO
-     da lista de cargos, acima da staff e dos membros.
-  5. pip install -r requirements.txt   (precisa de discord.py 2.4 ou mais novo)
-
-O QUE O BOT FAZ
-  • Anti-Raid ........ detecta rajada de entradas, liga o "modo raid" (barra novas entradas), filtro de conta nova
-  • Anti-Spam ........ flood, mensagem repetida, mesma mensagem em vários canais, menção em massa, emoji/caps/linhas
-  • Anti-Nuke ........ pune quem apaga/cria canais e cargos, bane/expulsa em massa ou cria webhooks; desfaz bans em massa
-  • Anti-Bot .......... expulsa bots adicionados por quem não é de confiança
-  • Anti-Escalada ..... desfaz permissões perigosas (admin, banir...) dadas a cargos/membros por quem não é de confiança
-  • Anti-Convite ...... apaga convites de outros servidores; links bloqueados para quem acabou de entrar
-  • Filtro de golpes .. mensagens de golpe = ban; imagens proibidas (hash) = ban; palavrões = apaga
-  • Punições .......... /mute /unmute /kick /ban /unban /warn (com escalonamento automático)
-  • Ferramentas ....... /raid /lockdown /unlock /limpar /slowmode /status, tickets e verificação por botão
-  • Logs .............. SÓ de punições e alertas: CANAL_BAN (ban/kick/unban/alertas) e CANAL_MUTE (mute/unmute/warn)
-"""
 import os
 import re
 import time
