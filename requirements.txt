@@ -1,0 +1,5 @@
+discord.py>=2.4
+aiohttp>=3.9
+Flask>=3.0
+Pillow>=10.0
+ImageHash>=4.3
